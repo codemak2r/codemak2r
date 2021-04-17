@@ -2,9 +2,8 @@ language: node_js
 language: node_js
 node_js:
   - lts/*
-before_install:
-  - npm i -g hexo-cli
 install:
+  - npm i hexo-cli -g 
   - hexo clean 
   - hexo g
   - hexo d
