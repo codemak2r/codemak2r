@@ -1,0 +1,1 @@
+![](https://travis-ci.org/codemak2r/codemak2r.svg?branch=main)
