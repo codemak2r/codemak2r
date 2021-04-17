@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://toyc.gitee.io/blog/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,11 +104,9 @@ theme: pure
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: 
-    github: 
-      url: https://github.com/codemak2r/codemak2r.github.io.git
-      branch: main
-      token: $ACCESS_TOKEN
+  repo: https://toyc@gitee.com/toyc/blog.git
+  branch: master
+  token: $ACCESS_TOKEN_GIT
   name: codemak2r
   email: codemak2r@163.com
 
