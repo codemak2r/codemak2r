@@ -3,6 +3,7 @@ node_js:
   - lts/*
 before_install:
   - npm i hexo-cli -g
+  - npm ci
 install:
   - hexo clean && hexo g && hexo d
   
