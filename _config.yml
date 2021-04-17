@@ -104,9 +104,11 @@ theme: pure
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://toyc@gitee.com/toyc/blog.git
-  branch: master
-  token: $ACCESS_TOKEN_GIT
+  repo: 
+    gitee:
+      url: https://toyc@gitee.com/toyc/blog.git
+      branch: master
+      token: $ACCESS_TOKEN_GIT
   name: codemak2r
   email: codemak2r@163.com
 
