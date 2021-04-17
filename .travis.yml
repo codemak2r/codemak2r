@@ -12,9 +12,8 @@ install:
 script:
   - hexo clean
   - hexo generate
-
-after_script:
   - git config user.name "jackson"
   - git config user.email "codemak2r@163.com"
   - sed -i "s/access_token/${ACCESS_TOKEN}/g" ./_config.yml
   - hexo deploy
+  
