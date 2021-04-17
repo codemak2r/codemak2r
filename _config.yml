@@ -103,6 +103,11 @@ theme: pure
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://access_token@github.com/codemak2r/codemak2r.github.io.git
-  branch: main
+  repo: 
+    github: 
+      url: https://github.com/codemak2r/codemak2r.github.io.git
+      branch: main
+      token: $ACCESS_TOKEN
+  name: codemak2r
+  email: codemak2r@163.com
 
