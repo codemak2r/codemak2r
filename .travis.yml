@@ -3,7 +3,7 @@ language: node_js
 node_js:
   - lts/*
 before_install:
-  - npm ci hexo-cli -g 
+  - npm i -g npm@npm@latest
 install:
   - subo hexo clean 
   - sudo hexo g
