@@ -4,6 +4,7 @@ node_js:
   - lts/*
 before_install:
   - npm i -g npm@latest
+  - sudo npm i -g hexo-cli
 install:
   - sudo hexo clean 
   - sudo hexo g
